@@ -16,10 +16,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShowExercise"></activity>
-        <activity android:name=".ActivityA5" />
-        <activity android:name=".ActivityA0" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ShowExercise"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".ActivityA5"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ActivityA0"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

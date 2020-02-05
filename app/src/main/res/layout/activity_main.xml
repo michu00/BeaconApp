@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/backgroundimage">
+    android:background="@drawable/backg">
 
 
     <ImageView
@@ -14,26 +14,24 @@
         android:layout_width="233dp"
         android:layout_height="233dp"
         android:layout_weight="1"
-        android:src="@drawable/rabbit"
+        android:src="@drawable/buttonon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="350dp"
-        android:layout_height="49dp"
+        android:layout_width="327dp"
+        android:layout_height="34dp"
         android:layout_marginBottom="56dp"
         android:fontFamily="serif"
-        android:text="dotknij szalonego królika"
+        android:text="kliknij aby znaleźć ćwiczenie"
         android:textColor="@color/white"
-        android:textSize="25sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="1.0" />

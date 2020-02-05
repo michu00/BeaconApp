@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements BeaconConsumer {
             @Override
             public void onClick(View v) {
                 beaconManager.bind(MainActivity.this);
-                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.rotate);
+                Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.zoomout);
                 imageView.startAnimation(animation);
             }
         });
@@ -95,7 +95,8 @@ public class MainActivity extends Activity implements BeaconConsumer {
                 showExercise("A5");
                 counter=0;
             }else if(locationService.getAverageA0() == 0 && locationService.getAverageA5() == 0){
-                tView.append("You are probably too far from any exercise position. Also you can check if your bluetooth is on \n");
+                tView.setTextSize(15);
+                tView.setText("You are probably too far from any exercise position. Also you can check if your bluetooth is on \n");
                 counter=0;
             }
             else{
