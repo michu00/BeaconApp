@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">Application8</string>
+    <string name="app_name">BeaconApp</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="description" />
+    <string name="desription1" />
+    <string name="textView_a0" />
+    <string name="opis_cwiczenia1">
+        <textArea>
+            Kładziemy się na ławce tak, by nogi ugięte były pod kątem prostym i
+            przylegały do podłoża. Uchwyt średni(taki, by po opuszczeniu sztangi na
+            klatkę ramiona tworzyły z przedramionami kąt prosty-kciuk dla bezpieczeństwa
+            powinien obejmować sztangę-choć wielu bardziej doświadczonych kulturystów
+            preferuje raczej tzw. ”małpi chwyt” (kciuk ponad gryfem).Opuszczamy sztangę na
+            klatkę na wysokość ok.1 cm powyżej brodawek. Przy opuszczaniu sztangi wykonujemy
+            głęboki wdech-wydychamy powietrze w trakcie wyciskania. Można okresowo praktykować
+            przytrzymywanie sztangi przez chwilę na klatce przed wyciśnięciem.(szczególnie przydatne,
+            jeżeli mamy w planach ewentualne starty w zawodach w wyciskaniu)-dodatkowo rozbudowuje
+            siłę-pobudza do dodatkowego wysiłku. Łokcie prowadzimy w trakcie całego ruchu po bokach-tak
+            by nie „uciekały”do środka. Ruch wyciskania kończymy(dla lepszego napięcia mięśni)
+            zanim łokcie zostaną zblokowane. Ćwiczenie to można wykonywać również na maszynach
+            (gif 3)lub na suwnicy Smitha(gif 2).
+        </textArea>
+    </string>
+    <string name="opis_cwiczenia2">
+        <textArea>
+            W pozycji stojącej: stajemy w rozkroku nieco szerszym, niż barki (inna forma ćwiczenia
+            zakłada wysunięcie jednej nogi nieco w przód, dla lepszej równowagi) - klatka piersiowa
+            wypchnięta ku przodowi, zachowana naturalna krzywizna kręgosłupa-pracują podczas ćwiczenia
+            tylko ramiona i barki (staramy się unikać dodatkowych ruchów tułowia i nóg), uchwyt nieco
+            szerszy, niż rozstaw barków. Im węższy uchwyt, tym bardziej pracę w ćwiczeniu przejmują
+            mięśnie trójgłowe ramion. W pozycji siedzącej: staramy się zwracać dużą uwagę na prawidłową
+            pozycję-przez cały czas należy mieć wypchniętą ku przodowi klatkę piersiową i zachowywać
+            naturalna krzywiznę kręgosłupa. Taka pozycja zabezpiecza (oczywiście nie w pełni) przed
+            urazami dolnego odcinka kręgosłupa. (można zastosować oparcie o ławkę-zmniejsza naciski
+            na dyski międzykręgowe).
+            UWAGI: Nie poleca się tego ćwiczenia dla początkujących, ponieważ jest ono bardzo
+            kontuzjogenne i najmniejsze błędy w jego wykonaniu mogą spowodować niebezpieczne kontuzje.
+        </textArea>
+    </string>
+
 </resources>
