@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
@@ -23,7 +22,6 @@ public class ShowExercise extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_show_exercise);
 
-
         imageView = findViewById(R.id.imageView_SE);
         buttonSE = findViewById(R.id.buttonSE);
 
@@ -35,9 +33,7 @@ public class ShowExercise extends AppCompatActivity {
             public void onClick(View v) {
                 Animation animation = AnimationUtils.loadAnimation(ShowExercise.this, R.anim.rotate);
                 buttonSE.startAnimation(animation);
-
                 startActivity(i);
-
             }
         });
     }

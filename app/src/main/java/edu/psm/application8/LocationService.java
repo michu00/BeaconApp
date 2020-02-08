@@ -1,11 +1,8 @@
 package edu.psm.application8;
 
 import android.os.Build;
-import android.widget.TextView;
 
 import androidx.annotation.RequiresApi;
-
-import org.altbeacon.beacon.Beacon;
 
 import java.util.ArrayList;
 import java.util.List;
